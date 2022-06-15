@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "name": "Travis Scott Nike Air Force 1 Low Sail ",
+      "price": 1200,
+      "imageURL" : "https://sneakernews.com/wp-content/uploads/2018/05/travis-scott-nike-air-force-1-sail-aq4211-101.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Air Jordan 1 Low University Red",
+      "price": 160,
+      "imageURL" : "https://media.restocks.net/products/553560-118/air-jordan-1-low-university-red-black-gs-2-1000.png"
+    },
+    {
+      "id": 3,
+      "name": "Yeezy Boost 350 V2 TRIPLE WHITE",
+      "price": 350,
+      "imageURL" : "https://sneakernews.com/wp-content/uploads/2017/04/adidas-yeezy-boost-350-v2-cream-white-stadium-goods-04.jpg"
+    }
+  ]

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link href="index.css" rel="stylesheet">
+  </head>
+  <body class="container">
+    
+    <button class="button" id="complimentButton">GET A COMPLIMENT</button>
+    <button class= "button" id="fc-btn" type="button">GET YOUR FORTUNE</button>
+<br>
+<br>
+<div class="radio-container">
+  <br>
+<h4>Which time of the day are you more productive?</h4>
+  <form class="radio">
+    <input class= "radios" type="button" name="converter" value="Morning" id="morning">
+      
+      <input class= "radios" type="button" name="converter" value="Evening" id="evening">
+  <br>
+    </form>    
+  </div>
+
+      <form class="closet">
+        <h1>ADD TO CLOSET</h1>
+        <input 
+            type='text'
+            id="name"
+            placeholder="Shoe Name"/>
+        <input 
+            type='text'
+            id="price"
+            placeholder='What is the price?'/>
+        <input 
+            type='text'
+            id="img"
+            placeholder='Paste an image URL'/>
+        
+        <button id="shoes">ADD SHOE</button>
+    </form>
+
+      <section id="shoes-container"></section>
+  
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

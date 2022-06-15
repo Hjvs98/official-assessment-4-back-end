@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: snow;
+  }
+  
+  header {
+    height: 80px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    color: darkslategray;
+  }
+  
+  main {
+    display: flex; 
+    justify-content: center;
+  }
+  
+  .closet {
+    width: 350px;
+    height: 350px;
+    background-color: darkslategray;
+    position: relative;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin: 30px;
+  }
+  
+  .button {
+    background-color: #232323;
+    width: 150px;
+    height: 40px;
+    color: turquoise;
+    border: none;
+    margin: 5px;
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+  #shoes {
+    background-color: #232323;
+    width: 150px;
+    height: 40px;
+    color: turquoise;
+    border: none;
+    margin: 5px;
+  }
+  
+  input[type='text'] {
+    width: 85%;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #232323;
+    color: #232323;
+    background-color: snow;
+  }
+  
+  #price-container {
+    width: 85%;
+  }
+  
+  #radio-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #shoes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: left;
+  }
+  
+  .shoe-cover-image {
+    width: 300px; 
+    height: 300px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .shoe-card {
+    background-color: darkslategray;
+    width: 300px;
+    margin: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .name {
+    font-size: 18px;
+    margin: 5px 0;
+    color: turquoise;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .shoe-price {
+    font-size: 15px;
+    margin: 5px 0;
+    color: turquoise;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .delete {
+    background-color: #232323;
+    width: 150px;
+    height: 40px;
+    color: turquoise;
+    border: none;
+    margin: 5px;
+    margin-left: 12px;
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .radios {
+    margin-left: 50px;
+    margin-top:0px;
+    background-color: #232323;
+    width: 150px;
+    height: 40px;
+    color: turquoise;
+    border: none;
+    margin: 5px;
+     margin-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  h4{
+    margin-left: 25px;
+  }
+  .radio-container {
+    background-color: darkslategray;
+    height: 100px;
+    width: 420px;
+    margin: 20px; 
+    align-items: center;
+    border-radius: 12px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: turquoise;
+  }
